@@ -5,6 +5,7 @@ plugins:
   - jekyll-relative-links
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-latex
 relative_links:
   enabled: true
   collections: true
