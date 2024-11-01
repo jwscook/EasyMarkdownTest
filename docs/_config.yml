@@ -6,6 +6,8 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-latex
+# Set this to true to get LaTeX math equation support
+use_math: true
 relative_links:
   enabled: true
   collections: true
