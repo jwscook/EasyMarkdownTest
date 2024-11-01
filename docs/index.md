@@ -1,1 +1,3 @@
-# this is the index
+# Index title
+
+index text
