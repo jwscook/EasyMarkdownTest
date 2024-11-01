@@ -10,7 +10,7 @@ relative_links:
 nav:
   - Home: index.md
 include:
-  - docs/Foo.md
+  - docs/*.md
 remote_theme: sighingnow/jekyll-gitbook
 syntax_highlighter_style: colorful
 toc:
