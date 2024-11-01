@@ -2,7 +2,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   math_engine: mathjax
-theme: just-the-docs
+remote_theme: pages-themes/minimal
 plugins:
   - jekyll-relative-links
   - jekyll-feed
