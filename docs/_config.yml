@@ -11,8 +11,7 @@ nav:
   - Home: index.md
 include:
   - docs/*.md
-  - docs/Foo.md
-remote_theme: sighingnow/jekyll-gitbook
+    #remote_theme: sighingnow/jekyll-gitbook
 syntax_highlighter_style: colorful
 toc:
     enabled: true
