@@ -9,16 +9,7 @@ plugins:
   - jekyll-latex
 # Set this to true to get LaTeX math equation support
 use_math: true
-relative_links:
-  enabled: true
-  collections: true
 nav:
   - Home: index.md
 include:
   - docs/*.md
-theme: minima
-gems:
-  - jekyll-toc
-toc:
-    min_level: 1
-    max_level: 4
