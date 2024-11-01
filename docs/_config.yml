@@ -1,7 +1,6 @@
 markdown: kramdown
 kramdown:
   input: GFM
-    #  parse_block_html: true
 plugins:
   - jekyll-relative-links
 relative_links:
@@ -11,13 +10,8 @@ nav:
   - Home: index.md
 include:
   - docs/*.md
-    #remote_theme: sighingnow/jekyll-gitbook
 theme: minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap
-syntax_highlighter_style: colorful
-toc:
-    enabled: true
-    h_min: 1
-    h_max: 3
+
