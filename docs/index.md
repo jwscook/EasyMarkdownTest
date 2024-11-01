@@ -1,11 +1,3 @@
-
----
-title: Easy Markdown Test
-in_menu: true
-sort_info: 1
-description: this is a descrption
----
-
-# Title!
+# Front page title
 
 {% include toc.html html=content %}
