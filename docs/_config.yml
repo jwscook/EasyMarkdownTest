@@ -3,6 +3,8 @@ kramdown:
   input: GFM
 plugins:
   - jekyll-relative-links
+  - jekyll-feed
+  - jekyll-sitemap
 relative_links:
   enabled: true
   collections: true
@@ -11,7 +13,8 @@ nav:
 include:
   - docs/*.md
 theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-
+gems:
+  - jekyll-toc
+toc:
+    min_level: 1
+    max_level: 4

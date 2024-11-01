@@ -1,1 +1,1 @@
-{% include toc.html html=content %}
+# this is the index
